@@ -20,7 +20,7 @@ img{
 }
 
 body{
-    max-width: 920px;
+    max-width: 1200px;
     margin: auto;
     background-color: black;
     color: #FFFF;
@@ -176,7 +176,8 @@ main{
 }
 
 .cards__card{
-    width: 44%;
+    width: 95%;
+    max-width: 250px;
     height: 150px;
     padding: 0.8rem;
     background: rgba(255, 255, 255, 0.2);
