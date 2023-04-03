@@ -1,0 +1,162 @@
+/* -------------------------------- variables ------------------------------- */
+::root{
+    --color-primary : #ffff;
+    --color-primary: red;
+    --font-color: #cccccc;
+
+
+    --h1-size:3.4rem;
+
+}
+
+body{
+    
+    background-color: black;
+    color: #FFFF;
+    
+    display: fleX;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+/* --------------------------------- navBar --------------------------------- */
+
+
+.navBar{
+    display: none;
+
+}
+.navBar__container{
+
+}
+
+/* ---------------------------------- hero ---------------------------------- */
+.hero{
+    height: 300px;
+    background-image: url("https://img.freepik.com/free-photo/global-connections-background-social-media-banner_53876-108500.jpg?w=900&t=st=1680473900~exp=1680474500~hmac=d5ad0eafa506a80805fff0cf6f0e8801bc24c204cf8a1b37997049d5273d882d");
+    background-repeat: none;
+    background-size: cover;
+    color: #FFFF;
+}
+.hero__container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 40%;
+}
+.hero__text_container{
+    margin: 0.4rem;
+    margin-top: 100px;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.hero__title{
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+.hero__paragrap{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* --------------------------- issue Mision --------------------------- */
+
+.issue__container{
+
+
+}
+.issue__text_container{
+    padding: 0.4rem;
+    text-align: center;
+    color: #FFFF;
+
+}
+.issue__title{
+    font-size:  2.4rem;
+    font-weight: 700;
+
+
+}
+.issue__paragrap{
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+/* -------------------------------- solucion -------------------------------- */
+.divider__title{
+    margin: 1.2rem 0 ;
+    text-align: center;
+    font-size: 2.4rem
+}
+
+
+.solution__paragrap{
+    font-size: 1.8rem;
+    
+
+}
+
+.img__con{
+    height: 320px;
+    overflow: hidden;
+    background-image: url("https://img.freepik.com/free-vector/global-network-isometric-glowing-composition-with-mobile-devices-satellite-internet-purple_1284-33338.jpg?w=740&t=st=1680482527~exp=1680483127~hmac=8afc5aef863c997776f4b580d16cdac022b3805b35c9da3ce49acadf2c6cc139");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.solution__img_container{
+    
+
+}
+.solution__img{
+    
+    display: none;
+}
+
+/* ---------------------------------- cards --------------------------------- */
+.cards{
+
+
+}
+
+.cards__title{
+    margin: 1.2rem 0 ;
+    text-align: center;
+    font-size: 2.4rem;
+
+
+
+}
+.cards__container{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 1.2rem;
+}
+
+.cards__card{
+
+    height: 140px;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.card__title{
+    margin-bottom: .8rem;
+}
+.card__tex{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
