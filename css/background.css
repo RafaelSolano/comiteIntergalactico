@@ -24,7 +24,7 @@ p {
 .star {
     border-radius: 50%;
     background: #fff;
-    position: absolute;
+    position: relative;
     -webkit-animation: glow 4000ms linear infinite;
     animation: glow 4000ms linear infinite;
 }
