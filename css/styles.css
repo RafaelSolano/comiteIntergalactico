@@ -8,6 +8,7 @@ html{
     
 }
 
+
 li{
     list-style: none;
 }
@@ -93,7 +94,7 @@ main{
     margin-bottom: 0.8rem;
 }
 .hero__paragrap{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 /* --------------------------- issue Mision --------------------------- */
@@ -115,7 +116,7 @@ main{
 
 }
 .issue__paragrap{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 400;
 
 }
@@ -129,7 +130,7 @@ main{
 
 
 .solution__paragrap{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     
 
 }
@@ -179,7 +180,7 @@ main{
 
 .cards__card{
     width: 90%;
-    /* ---------------------------- max-width: 400px; --------------------------- */
+     max-width: 400px;
     height: 150px;
     padding: 0.8rem;
     background: rgba(255, 255, 255, 0.2);
@@ -193,8 +194,9 @@ main{
 .card__title{
     margin-bottom: .8rem;
 }
+
 .card__tex{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 200;
 }
 
@@ -223,8 +225,14 @@ main{
 }
 
 .benefit__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
     width: 95%;
     max-width: 300px;
+
+    
 
     padding: 0.8rem;
 
@@ -239,8 +247,20 @@ main{
 .benefit__text_container{
 
 }
+.benefit__title{
+    font-size: 1.8rem;
+
+}
+.benefit__paragrap{
+    font-size: 1.6rem;
+    font-weight: 200;
+}
 
 .benefit__img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
     
 
