@@ -177,7 +177,7 @@ main{
 
 .cards__card{
     width: 95%;
-    max-width: 250px;
+    max-width: 400px;
     height: 150px;
     padding: 0.8rem;
     background: rgba(255, 255, 255, 0.2);
