@@ -32,7 +32,9 @@ body{
 
 /* ---------------------------------- hero ---------------------------------- */
 .hero{
+    width: 100%;
     height: 300px;
+    display: flex;
     background-image: url("https://img.freepik.com/free-photo/global-connections-background-social-media-banner_53876-108500.jpg?w=900&t=st=1680473900~exp=1680474500~hmac=d5ad0eafa506a80805fff0cf6f0e8801bc24c204cf8a1b37997049d5273d882d");
     background-repeat: none;
     background-size: cover;
@@ -121,6 +123,9 @@ body{
 
 /* ---------------------------------- cards --------------------------------- */
 .cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 
 
 }
