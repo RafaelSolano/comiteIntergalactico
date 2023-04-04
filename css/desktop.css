@@ -1,0 +1,174 @@
+/* ----------------------------------- nav ---------------------------------- */
+.navBar{
+  
+}
+
+
+
+ /* ---------------------------------- hero ---------------------------------- */
+.hero{
+  margin-top: 1rem;
+  height: 70rem;
+  border-radius: 25px;
+
+}
+.hero__container{
+  border-radius: 25px;
+  
+
+}
+.hero__text_container{
+  width: 100%;
+  
+}
+.hero__title{
+  font-size: 5.8rem;
+  text-shadow: 1px 2px 2px black;
+  text-transform: uppercase;
+}
+.hero__paragrap{
+  font-size: 2.4rem;
+  text-shadow: 1px 2px 2px black;
+}
+
+/* ---------------------------------- issue --------------------------------- */
+.issue{
+  margin-top: 10rem; 
+}
+
+.issue__container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.issue__text_container{
+  text-align: left;
+}
+.issue__title{
+  font-size: 6.2rem;
+}
+.issue__paragrap{
+  margin-right: 5rem;
+  font-size: 2.4rem;
+}
+.issue__img_container,
+.issue__img {
+  width: 400px;
+  height: 300px;
+  border-radius: 500px 500px 00px 0px;
+}
+/* -------------------------------- solution -------------------------------- */
+.solution{
+  margin-top: 5rem;
+  padding-top: 5rem;
+  border-top: 1px solid white;
+}
+.divider__title{
+  font-size: 6.4rem;
+}
+.solution__container{
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  align-items: center;
+  justify-content: space-between;
+  
+ 
+}
+.solution__paragrap{
+  font-size: 2.8rem;
+}
+.img__con{
+  order: -1;
+  border-radius: 25px;
+  width: 100%;
+  height: 435px;
+}
+
+/* ---------------------------------- cards --------------------------------- */
+.cards{
+  margin-top: 5rem;
+  padding-top: 5rem;
+  border-top: 1px solid white;
+}
+.cards__title{
+  margin-bottom: 5rem;
+  font-size: 6.2rem;
+}
+.cards__container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25% ;
+}
+.cards__card {
+  height: 40rem;
+  -webkit-box-shadow:0px 0px 13px 1px rgba(171,46,255,0.9);
+    -moz-box-shadow: 0px 0px 13px 1px rgba(171,46,255,0.9);
+    box-shadow: 0px 0px 13px 1px rgba(171,46,255,0.9);
+}
+
+.card__title{
+  font-size: 3.4rem;
+}
+.card__tex{
+  text-align: justify;
+  font-size: 2.2rem;
+}
+
+
+/* --------------------------------- .issue --------------------------------- */
+
+.question{
+  width: 100%;
+  border-top: 1px solid white;
+  text-align: center;
+  
+
+}
+/* -------------------------------- benefits -------------------------------- */
+.benefits{
+  
+  display: flex;
+  justify-content: center;
+ 
+
+}
+.benefits___container{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-around;
+  gap: 4rem;
+
+  
+  
+
+}
+.benefit__card{
+  max-width: 100%;
+  margin-bottom: 1.2rem;
+  -webkit-box-shadow:0px 0px 13px 1px #f06eece6;
+  -moz-box-shadow: 0px 0px 13px 1px #f06eece6;
+   box-shadow: 0px 0px 13px 1px #f06eece6;
+}
+
+.benefit__title{
+  font-size: 3rem;
+
+}
+
+.benefit__paragrap{
+  font-size: 2.4rem;
+
+}
+
+footer{
+  margin-top: 5rem;
+  padding: 5rem;
+  font-size: 2rem;
+  border-top: 1px solid white;
+
+}
