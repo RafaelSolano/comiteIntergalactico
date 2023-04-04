@@ -57,7 +57,7 @@ main{
     height: 300px;
     display: flex;
     justify-content: center;
-    background-image: url("https://img.freepik.com/free-photo/global-connections-background-social-media-banner_53876-108500.jpg?w=900&t=st=1680473900~exp=1680474500~hmac=d5ad0eafa506a80805fff0cf6f0e8801bc24c204cf8a1b37997049d5273d882d");
+    background-image: url("https://www.eluniverso.com/resizer/FMBSgpU4fqnJ4QdJy1_gpPsLvSY=/1117x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/ACWXLECUDRBDFDSNTZHBWPXIME.jpg");
     background-repeat: none;
     background-size: cover;
     color: #FFFF;
@@ -87,6 +87,8 @@ main{
     border: 1px solid rgba(255, 255, 255, 0.3);
 
     text-align: center;
+
+    
 }
 .hero__title{
     font-size: 3.4rem;
@@ -107,11 +109,17 @@ main{
     padding: 0.4rem;
     text-align: center;
     color: #FFFF;
+    
+
+    
 
 }
 .issue__title{
     font-size:  3.4rem;
     font-weight: 700;
+
+    
+    
 
 
 }
@@ -205,6 +213,10 @@ main{
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 
+    -webkit-box-shadow:0px 0px 25px 1px rgba(171,46,255,0.9);
+    -moz-box-shadow: 0px 0px 25px 1px rgba(171,46,255,0.9);
+    box-shadow: 0px 0px 25px 1px rgba(171,46,255,0.9);
+
 }
 .card__title{
     margin-bottom: .8rem;
@@ -260,6 +272,11 @@ main{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+    -webkit-box-shadow:0px 0px 25px 1px rgba(240,110,236,0.9);
+    -moz-box-shadow: 0px 0px 25px 1px rgba(240,110,236,0.9);
+    box-shadow: 0px 0px 25px 1px rgba(240,110,236,0.9);
 
 }
 .benefit__text_container{
